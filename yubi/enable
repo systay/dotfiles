@@ -1,0 +1,3 @@
+echo "turning on OTP"
+ykman config usb -f -e OTP
+echo "on" > ~/yubi/status

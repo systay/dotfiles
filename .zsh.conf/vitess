@@ -1,0 +1,3 @@
+export VTROOT=~/vitess
+export VTTOP=~/dev/go/src/github.com/vitessio/vitess
+export VTDATAROOT=~/vitess/vtdataroot

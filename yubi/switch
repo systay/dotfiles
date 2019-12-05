@@ -1,0 +1,6 @@
+status=$(head -n 1 ~/yubi/status)
+if [ "$status" = "off" ]; then
+    ~/yubi/enable
+else
+    ~/yubi/disable
+fi
