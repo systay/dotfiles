@@ -1,0 +1,8 @@
+~/yubi/enable
+secs=15
+while [ $secs -gt 0 ]; do
+   echo $secs
+   sleep 1
+   : $((secs--))
+done
+~/yubi/disable
