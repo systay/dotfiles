@@ -3,3 +3,5 @@
 	email = andres@planetscale.com
 [core]
 	editor = subl -n -w
+[alias]
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --no-merges
