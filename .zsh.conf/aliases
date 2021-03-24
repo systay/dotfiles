@@ -11,3 +11,5 @@ alias gs='git status'
 alias rwip='git reset HEAD~1'
 alias wip='gaa && git commit -m "wip" -n'
 alias glst="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
+alias pr="gh pr checkout"
+alias gamendn='git commit --amend --no-edit'
