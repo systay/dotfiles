@@ -1,3 +1,7 @@
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init zsh pre)"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -108,3 +112,7 @@ if [ -f '/Users/systay/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/User
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/systay/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/systay/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Fig post block. Keep at the bottom of this file.
+eval "$(fig init zsh post)"
+
